@@ -1,0 +1,56 @@
+html, body {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    background-color: #f3e5a8;
+
+}
+
+form {
+    position: absolute;
+    bottom: 300px;
+    right: 50%;
+}
+
+table {
+    position: absolute;
+    left: 743px;
+    top: 205px;
+    border-spacing: 1px;
+}
+
+td {
+    height: 34px;
+    width: 34px;
+
+}
+
+.messageArea {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 1px;
+    color: white;
+}
+
+.pole {
+    background-image: url("fon.jpg");
+    height: 604px;
+    background-repeat: no-repeat;
+    margin-left: 658px;
+}
+
+.hit{
+    background-image: url("hit.png");
+    background-repeat: no-repeat;
+    position: center;
+}
+
+.miss{
+    background-image: url("miss.png");
+    background-repeat: no-repeat;
+    position: center;
+}
